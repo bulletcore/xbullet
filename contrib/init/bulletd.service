@@ -1,0 +1,22 @@
+[Unit]
+Description=Bullet's distributed currency daemon
+After=network.target
+
+[Service]
+User=bulletcore
+Group=bulletcore
+
+Type=forking
+PIDFile=/var/lib/bulletd/bulletd.pid
+ExecStart=/usr/bin/bulletd -daemon -pid=/var/lib/bulletd/bulletd.pid \
+-conf=/etc/bulletcore/bullet.conf -datadir=/var/lib/bulletd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

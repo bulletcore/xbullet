@@ -1,0 +1,6 @@
+usr/local/bin/bullet-qt usr/bin
+share/pixmaps/bullet32.xpm usr/share/pixmaps
+share/pixmaps/bullet16.xpm usr/share/pixmaps
+share/pixmaps/bullet128.png usr/share/pixmaps
+debian/bullet-qt.desktop usr/share/applications
+debian/bullet-qt.protocol usr/share/kde4/services/

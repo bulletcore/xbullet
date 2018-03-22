@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/bullet_bg.qm</file>
+        <file alias="de">locale/bullet_de.qm</file>
+        <file alias="en">locale/bullet_en.qm</file>
+        <file alias="es">locale/bullet_es.qm</file>
+        <file alias="fi">locale/bullet_fi.qm</file>
+        <file alias="fr">locale/bullet_fr.qm</file>
+        <file alias="it">locale/bullet_it.qm</file>
+        <file alias="ja">locale/bullet_ja.qm</file>
+        <file alias="pl">locale/bullet_pl.qm</file>
+        <file alias="pt">locale/bullet_pt.qm</file>
+        <file alias="ru">locale/bullet_ru.qm</file>
+        <file alias="sk">locale/bullet_sk.qm</file>
+        <file alias="sv">locale/bullet_sv.qm</file>
+        <file alias="vi">locale/bullet_vi.qm</file>
+        <file alias="zh_CN">locale/bullet_zh_CN.qm</file>
+        <file alias="zh_TW">locale/bullet_zh_TW.qm</file>
+    </qresource>
+</RCC>
